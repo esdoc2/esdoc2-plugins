@@ -1,13 +1,14 @@
 const path = require('path');
 const fs = require('fs');
-const ESDocCLI = require('esdoc2/out/src/ESDocCLI.js').default;
+const ESDoc = require('esdoc2/out/src/ESDoc').default;
 
-function cli() {
-  const cliPath = path.resolve('./node_modules/esdoc2/out/ESDocCLI.js');
-  const argv = ['node', cliPath, '-c', './test/esdoc.json'];
-  const cli = new ESDocCLI(argv);
-  cli.exec();
-  global.docs = JSON.parse(fs.readFileSync('./test/out/index.json').toString());
+function generateDocs (configPath) {
+  return ESDoc.generate(require(path.resolve(configPath)))
 }
 
-cli();
+generateDocs('./test/esdoc.json').then(() => {
+  console.log(`== finish ==`)
+  global.docs = JSON.parse(fs.readFileSync('./test/out/index.json').toString())
+}).catch((e) => {
+  console.log('== init.js | ESDoc.generate | catch ==', e)
+})
