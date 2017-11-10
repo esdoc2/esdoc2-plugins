@@ -1,6 +1,6 @@
 {
   "name": "esdoc2-publish-html-plugin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A publish HTML plugin for esdoc2",
   "author": "h13i32maru",
   "homepage": "https://github.com/esdoc2/esdoc2-plugins",
@@ -10,30 +10,30 @@
     "url": "https://github.com/esdoc2/esdoc2-plugins"
   },
   "dependencies": {
-    "cheerio": "0.22.0",
-    "fs-extra": "1.0.0",
-    "escape-html": "1.0.3",
     "babel-generator": "6.11.4",
+    "cheerio": "0.22.0",
+    "escape-html": "1.0.3",
+    "fs-extra": "1.0.0",
     "ice-cap": "0.0.4",
     "marked": "0.3.6",
     "taffydb": "2.7.2"
   },
   "devDependencies": {
-    "esdoc2": "latest",
-    "mocha": "2.5.3",
     "babel-cli": "6.11.4",
     "babel-plugin-transform-es2015-modules-commonjs": "6.11.5",
     "babel-register": "6.11.6",
+    "esdoc2": "latest",
     "esdoc2-accessor-plugin": "latest",
     "esdoc2-brand-plugin": "latest",
-    "esdoc2-external-ecmascript-plugin": "latest",
-    "esdoc2-undocumented-identifier-plugin": "latest",
-    "esdoc2-unexported-identifier-plugin": "latest",
     "esdoc2-coverage-plugin": "latest",
     "esdoc2-ecmascript-proposal-plugin": "latest",
-    "esdoc2-type-inference-plugin": "latest",
+    "esdoc2-external-ecmascript-plugin": "latest",
     "esdoc2-integrate-manual-plugin": "latest",
-    "esdoc2-integrate-test-plugin": "latest"
+    "esdoc2-integrate-test-plugin": "latest",
+    "esdoc2-type-inference-plugin": "latest",
+    "esdoc2-undocumented-identifier-plugin": "latest",
+    "esdoc2-unexported-identifier-plugin": "latest",
+    "mocha": "2.5.3"
   },
   "engines": {
     "node": ">= 6.0.0"
