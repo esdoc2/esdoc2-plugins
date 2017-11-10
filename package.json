@@ -5,12 +5,42 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "lerna run test",
+    "publish": "lerna publish",
+    "install": "lerna bootstrap --npm-client=yarn"
+  },
   "description": "esdoc2 plugin mono repo",
   "main": "index.js",
   "repository": "https://github.com/esdoc2/esdoc2-plugins.git",
   "author": "Matt McFarland <contact@mattmcfarland.com>",
   "license": "MIT",
-  "devDependencies": {
-    "lerna": "^2.5.1"
+  "dependencies": {
+    "esdoc2": "latest",
+    "lerna": "^2.5.1",    
+    "esdoc2-accessor-plugin": "*",
+    "esdoc2-brand-plugin": "*",
+    "esdoc2-coverage-plugin": "*",
+    "esdoc2-ecmascript-proposal-plugin": "*",
+    "esdoc2-exclude-source-plugin": "*",
+    "esdoc2-external-ecmascript-plugin": "*",
+    "esdoc2-external-nodejs-plugin": "*",
+    "esdoc2-external-webapi-plugin": "*",
+    "esdoc2-flow-type-plugin": "*",
+    "esdoc2-importpath-plugin": "*",
+    "esdoc2-inject-script-plugin": "*",
+    "esdoc2-inject-style-plugin": "*",
+    "esdoc2-integrate-manual-plugin": "*",
+    "esdoc2-integrate-test-plugin": "*",
+    "esdoc2-jsx-plugin": "*",
+    "esdoc2-lint-plugin": "*",
+    "esdoc2-publish-html-plugin": "*",
+    "esdoc2-publish-markdown-plugin": "*",
+    "esdoc2-react-plugin": "*",
+    "esdoc2-standard-plugin": "*",
+    "esdoc2-type-inference-plugin": "*",
+    "esdoc2-typescript-plugin": "*",
+    "esdoc2-undocumented-identifier-plugin": "*",
+    "esdoc2-unexported-identifier-plugin": "*"
   }
 }
