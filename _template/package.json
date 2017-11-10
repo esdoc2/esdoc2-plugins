@@ -1,16 +1,16 @@
 {
-  "name": "esdoc-template-plugin",
+  "name": "esdoc2-template-plugin",
   "version": "0.0.1",
-  "description": "A __TEMPLATE__ plugin for ESDoc",
+  "description": "A __TEMPLATE__ plugin for esdoc2",
   "author": "h13i32maru",
-  "homepage": "https://github.com/esdoc/esdoc-plugins",
+  "homepage": "https://github.com/esdoc2/esdoc2-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esdoc/esdoc-plugins"
+    "url": "https://github.com/esdoc2/esdoc2-plugins"
   },
   "devDependencies": {
-    "esdoc": "alpha",
+    "esdoc2": "alpha",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -20,7 +20,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdoc2",
     "plugin"
   ],
   "files": [

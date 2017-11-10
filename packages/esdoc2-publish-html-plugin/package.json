@@ -1,0 +1,56 @@
+{
+  "name": "esdoc2-publish-html-plugin",
+  "version": "1.1.0",
+  "description": "A publish HTML plugin for esdoc2",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc2/esdoc2-plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc2/esdoc2-plugins"
+  },
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "fs-extra": "1.0.0",
+    "escape-html": "1.0.3",
+    "babel-generator": "6.11.4",
+    "ice-cap": "0.0.4",
+    "marked": "0.3.6",
+    "taffydb": "2.7.2"
+  },
+  "devDependencies": {
+    "esdoc2": "latest",
+    "mocha": "2.5.3",
+    "babel-cli": "6.11.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.11.5",
+    "babel-register": "6.11.6",
+    "esdoc2-accessor-plugin": "latest",
+    "esdoc2-brand-plugin": "latest",
+    "esdoc2-external-ecmascript-plugin": "latest",
+    "esdoc2-undocumented-identifier-plugin": "latest",
+    "esdoc2-unexported-identifier-plugin": "latest",
+    "esdoc2-coverage-plugin": "latest",
+    "esdoc2-ecmascript-proposal-plugin": "latest",
+    "esdoc2-type-inference-plugin": "latest",
+    "esdoc2-integrate-manual-plugin": "latest",
+    "esdoc2-integrate-test-plugin": "latest"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf ./out/src && babel --out-dir out/src --ignore 'Builder/template' src && cp -a src/Builder/template out/src/Builder/",
+    "test": "rm -rf ./test/fixture/out && mocha -t 10000 --require ./node_modules/babel-register --require ./test/src/init.js --recursive ./test/src -R spec"
+  },
+  "keywords": [
+    "esdoc2",
+    "publish",
+    "html",
+    "plugin"
+  ],
+  "files": [
+    "out/src",
+    "README.md"
+  ],
+  "main": "out/src/Plugin.js"
+}

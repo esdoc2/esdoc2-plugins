@@ -1,0 +1,32 @@
+{
+  "name": "esdoc2-integrate-test-plugin",
+  "version": "1.0.0",
+  "description": "A integrate test plugin for esdoc2",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc2/esdoc2-plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc2/esdoc2-plugins"
+  },
+  "devDependencies": {
+    "esdoc2": "latest",
+    "mocha": "2.5.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
+  },
+  "keywords": [
+    "esdoc2",
+    "test",
+    "plugin"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "main": "src/Plugin.js"
+}

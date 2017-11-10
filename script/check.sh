@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for plugin in $(ls -1 -d esdoc-*)
+for plugin in $(ls -1 -d esdoc2-*)
 do
   cd $plugin
 #  localDate=$(TZ=UTC git log --date=format-local:%Y-%m-%d -n 1 ./ | grep Date | cut -d ' ' -f 4 | cut -d 'T' -f 1)

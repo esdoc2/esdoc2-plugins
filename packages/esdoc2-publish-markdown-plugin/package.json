@@ -1,0 +1,36 @@
+{
+  "name": "esdoc2-publish-markdown-plugin",
+  "version": "1.0.0",
+  "description": "A publish markdown plugin for esdoc2 [PoC]",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc2/esdoc2-plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc2/esdoc2-plugins"
+  },
+  "dependencies": {
+    "ice-cap": "0.0.4",
+    "to-markdown": "3.0.4"
+  },
+  "devDependencies": {
+    "esdoc2": "latest",
+    "mocha": "2.5.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
+  },
+  "keywords": [
+    "esdoc2",
+    "markdown",
+    "plugin"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "main": "src/Plugin.js"
+}

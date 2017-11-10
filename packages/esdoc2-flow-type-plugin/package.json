@@ -1,0 +1,33 @@
+{
+  "name": "esdoc2-flow-type-plugin",
+  "version": "1.0.1",
+  "description": "A flow type plugin for esdoc2 [PoC]",
+  "author": "h13i32maru",
+  "homepage": "https://github.com/esdoc2/esdoc2-plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esdoc2/esdoc2-plugins"
+  },
+  "devDependencies": {
+    "esdoc2": "latest",
+    "mocha": "2.5.3",
+    "esdoc2-standard-plugin": "latest"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
+  },
+  "keywords": [
+    "esdoc2",
+    "flow",
+    "plugin"
+  ],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "main": "src/Plugin.js"
+}

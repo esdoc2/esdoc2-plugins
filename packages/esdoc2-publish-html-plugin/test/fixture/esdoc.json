@@ -1,0 +1,38 @@
+{
+  "source": "./test/fixture/src",
+  "destination": "./test/fixture/out",
+  "index": "./test/fixture/README.md",
+  "package": "./test/fixture/package.json",
+  "plugins": [
+    {"name": "esdoc2-brand-plugin", "option": {"logo": "./test/fixture/logo.png", "image": "https://esdoc2.org/manual/asset/image/logo.png"}},
+    {"name": "esdoc2-coverage-plugin"},
+    {"name": "esdoc2-ecmascript-proposal-plugin", "option": {"all": true}},
+    {"name": "esdoc2-external-ecmascript-plugin", "option": {"enable": true}},
+    {"name": "esdoc2-accessor-plugin", "option": {"access": ["public", "protected", "private"], "autoPrivate": true}},
+    {"name": "esdoc2-type-inference-plugin", "option": {"enable": true}},
+    {"name": "esdoc2-undocumented-identifier-plugin"},
+    {"name": "esdoc2-unexported-identifier-plugin"},
+    {"name": "esdoc2-integrate-manual-plugin", "option": {
+      "index": "./test/fixture/manual/index.md",
+      "files": [
+        "./test/fixture/manual/overview.md",
+        "./test/fixture/manual/design.md",
+        "./test/fixture/manual/installation.md",
+        "./test/fixture/manual/tutorial.md",
+        "./test/fixture/manual/usage1.md",
+        "./test/fixture/manual/usage2.md",
+        "./test/fixture/manual/configuration.md",
+        "./test/fixture/manual/example.md",
+        "./test/fixture/manual/advanced.md",
+        "./test/fixture/manual/faq.md",
+        "./test/fixture/CHANGELOG.md"
+      ]
+    }},
+    {"name": "esdoc2-integrate-test-plugin", "option": {
+      "type": "mocha",
+      "source": "./test/fixture/test",
+      "includes": ["Test.js$"]
+    }},
+    {"name": "./src/Plugin.js"}
+  ]
+}

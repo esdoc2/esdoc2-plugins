@@ -1,46 +1,46 @@
-[![](https://travis-ci.org/esdoc/esdoc-plugins.svg?branch=master)](https://travis-ci.org/esdoc/esdoc-plugins)
-# ESDoc Plugins
+[![](https://travis-ci.org/esdoc2/esdoc2-plugins.svg?branch=master)](https://travis-ci.org/esdoc2/esdoc2-plugins)
+# esdoc2 Plugins
 
-This repository is official plugins for ESDoc.
+This repository is official plugins for esdoc2.
 
-**In most case, we recommend [esdoc-standard-plugin](./esdoc-standard-plugin)**
+**In most case, we recommend [esdoc2-standard-plugin](./esdoc2-standard-plugin)**
 
 ## Each Plugins
 
 **Publisher**
-- [esdoc-publish-html-plugin](./esdoc-publish-html-plugin)
-- [esdoc-publish-markdown-plugin](./esdoc-publish-markdown-plugin) [PoC]
+- [esdoc2-publish-html-plugin](./esdoc2-publish-html-plugin)
+- [esdoc2-publish-markdown-plugin](./esdoc2-publish-markdown-plugin) [PoC]
 
 **Integration**
-- [esdoc-integrate-manual-plugin](./esdoc-integrate-manual-plugin)
-- [esdoc-integrate-test-plugin](./esdoc-integrate-test-plugin)
+- [esdoc2-integrate-manual-plugin](./esdoc2-integrate-manual-plugin)
+- [esdoc2-integrate-test-plugin](./esdoc2-integrate-test-plugin)
 
 **Transform**
-- [esdoc-accessor-plugin](./esdoc-accessor-plugin)
-- [esdoc-brand-plugin](./esdoc-brand-plugin)
-- [esdoc-exclude-source-plugin](./esdoc-exclude-source-plugin)
-- [esdoc-importpath-plugin](./esdoc-importpath-plugin)
-- [esdoc-inject-script-plugin](./esdoc-inject-script-plugin)
-- [esdoc-inject-style-plugin](./esdoc-inject-style-plugin)
-- [esdoc-undocumented-identifier-plugin](./esdoc-undocumented-identifier-plugin)
-- [esdoc-unexported-identifier-plugin](./esdoc-unexported-identifier-plugin)
+- [esdoc2-accessor-plugin](./esdoc2-accessor-plugin)
+- [esdoc2-brand-plugin](./esdoc2-brand-plugin)
+- [esdoc2-exclude-source-plugin](./esdoc2-exclude-source-plugin)
+- [esdoc2-importpath-plugin](./esdoc2-importpath-plugin)
+- [esdoc2-inject-script-plugin](./esdoc2-inject-script-plugin)
+- [esdoc2-inject-style-plugin](./esdoc2-inject-style-plugin)
+- [esdoc2-undocumented-identifier-plugin](./esdoc2-undocumented-identifier-plugin)
+- [esdoc2-unexported-identifier-plugin](./esdoc2-unexported-identifier-plugin)
 
 **Inspection**
-- [esdoc-coverage-plugin](./esdoc-coverage-plugin)
-- [esdoc-lint-plugin](./esdoc-lint-plugin)
-- [esdoc-type-inference-plugin](./esdoc-type-inference-plugin) 
+- [esdoc2-coverage-plugin](./esdoc2-coverage-plugin)
+- [esdoc2-lint-plugin](./esdoc2-lint-plugin)
+- [esdoc2-type-inference-plugin](./esdoc2-type-inference-plugin) 
 
 **External Identifier**
-- [esdoc-external-ecmascript-plugin](./esdoc-external-ecmascript-plugin)
-- [esdoc-external-nodejs-plugin](./esdoc-external-nodejs-plugin)
-- [esdoc-external-webapi-plugin](./esdoc-external-webapi-plugin)
+- [esdoc2-external-ecmascript-plugin](./esdoc2-external-ecmascript-plugin)
+- [esdoc2-external-nodejs-plugin](./esdoc2-external-nodejs-plugin)
+- [esdoc2-external-webapi-plugin](./esdoc2-external-webapi-plugin)
 
 **Language**
-- [esdoc-ecmascript-proposal-plugin](./esdoc-ecmascript-proposal-plugin)
-- [esdoc-flow-type-plugin](./esdoc-flow-type-plugin) [PoC]
-- [esdoc-typescript-plugin](./esdoc-typescript-plugin) [PoC]
+- [esdoc2-ecmascript-proposal-plugin](./esdoc2-ecmascript-proposal-plugin)
+- [esdoc2-flow-type-plugin](./esdoc2-flow-type-plugin) [PoC]
+- [esdoc2-typescript-plugin](./esdoc2-typescript-plugin) [PoC]
 
 **React**
-- [esdoc-jsx-plugin](./esdoc-jsx-plugin)
-- [esdoc-react-plugin](./esdoc-react-plugin) [PoC]
+- [esdoc2-jsx-plugin](./esdoc2-jsx-plugin)
+- [esdoc2-react-plugin](./esdoc2-react-plugin) [PoC]
 

@@ -1,0 +1,10 @@
+{
+  "name": "esdoc2-brand-plugin-test",
+  "description": "this is esdoc2-brand-plugin test",
+  "repository": "https://github.com/esdoc2/esdoc2-optional-plugins",
+  "homepage": "https://esdoc2.org",
+  "author": {
+    "name": "h13i32maru",
+    "url": "http://h13i32maru.jp"
+  }
+}
