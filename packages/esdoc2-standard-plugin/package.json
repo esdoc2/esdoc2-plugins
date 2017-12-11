@@ -1,6 +1,6 @@
 {
   "name": "esdoc2-standard-plugin",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A standard plugin for esdoc2",
   "author": "h13i32maru",
   "homepage": "https://github.com/esdoc2/esdoc2-plugins",
@@ -14,7 +14,7 @@
     "esdoc2-brand-plugin": "^2.0.0",
     "esdoc2-coverage-plugin": "^2.0.0",
     "esdoc2-external-ecmascript-plugin": "^2.0.0",
-    "esdoc2-integrate-manual-plugin": "^2.0.0",
+    "esdoc2-integrate-manual-plugin": "^2.1.0",
     "esdoc2-integrate-test-plugin": "^2.0.0",
     "esdoc2-lint-plugin": "^2.0.0",
     "esdoc2-publish-html-plugin": "^2.0.1",
