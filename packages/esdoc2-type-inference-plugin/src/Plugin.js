@@ -27,6 +27,7 @@ class Plugin {
 
     for (const doc of docs) {
       const node = ASTNodeContainer.getNode(doc.__docId__);
+      if (!node) continue;
       if (!doc.params) doc.params = this._inferenceParam(node);
       if (!doc.return) doc.return = this._inferenceReturn(node);
     }
@@ -37,6 +38,7 @@ class Plugin {
 
     for (const doc of docs) {
       const node = ASTNodeContainer.getNode(doc.__docId__);
+      if (!node) continue;
       if (!doc.params) doc.params = this._inferenceParam(node);
       if (!doc.return) doc.return = this._inferenceReturn(node);
     }
@@ -47,6 +49,7 @@ class Plugin {
 
     for (const doc of docs) {
       const node = ASTNodeContainer.getNode(doc.__docId__);
+      if (!node) continue;
       if (!doc.type) doc.type = this._inferenceReturn(node);
     }
   }
@@ -66,6 +69,7 @@ class Plugin {
 
     for (const doc of docs) {
       const node = ASTNodeContainer.getNode(doc.__docId__);
+      if (!node) continue;
       if (!doc.type) doc.type = this._inferenceType(node.right);
     }
   }
@@ -77,6 +81,7 @@ class Plugin {
       if (doc.type) continue;
 
       const node = ASTNodeContainer.getNode(doc.__docId__);
+      if (!node) continue;
       if (node.declarations[0].init.type === 'NewExpression') {
         const className = node.declarations[0].init.callee.name;
 

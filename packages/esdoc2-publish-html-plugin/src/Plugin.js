@@ -24,7 +24,8 @@ class Plugin {
     this._template = typeof this._option.template === 'string'
       ? path.resolve(process.cwd(), this._option.template)
       : path.resolve(__dirname, './Builder/template');
-    this._exec(this._docs, ev.data.writeFile, ev.data.copyDir, ev.data.readFile);
+    // TODO: find out why _docs is undefined (ie. why onHandleDocs isn't called).
+    this._exec(this._docs || [], ev.data.writeFile, ev.data.copyDir, ev.data.readFile);
   }
 
   _exec(tags, writeFile, copyDir, readFile) {
