@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
+const glob = require('glob');
 
 class Plugin {
   onHandleDocs(ev) {
@@ -63,14 +64,17 @@ class Plugin {
     }
 
     for (const filePath of manual.files) {
-      results.push({
-        kind: 'manual',
-        longname: path.resolve(filePath),
-        name: filePath,
-        content: fs.readFileSync(filePath).toString(),
-        static: true,
-        access: 'public'
-      });
+      const matches = glob.sync(filePath);
+      for (const match of matches) {
+        results.push({
+          kind: 'manual',
+          longname: path.resolve(match),
+          name: match,
+          content: fs.readFileSync(match).toString(),
+          static: true,
+          access: 'public'
+        });
+      };
     }
 
     return results;

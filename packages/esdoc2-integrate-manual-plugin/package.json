@@ -28,5 +28,8 @@
     "src",
     "README.md"
   ],
-  "main": "src/Plugin.js"
+  "main": "src/Plugin.js",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
 }
