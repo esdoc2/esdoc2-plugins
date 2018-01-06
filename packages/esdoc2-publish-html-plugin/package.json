@@ -10,13 +10,13 @@
     "url": "https://github.com/esdoc2/esdoc2-plugins"
   },
   "dependencies": {
-    "babel-generator": "6.11.4",
-    "cheerio": "0.22.0",
-    "escape-html": "1.0.3",
-    "fs-extra": "1.0.0",
-    "ice-cap": "0.0.4",
-    "marked": "0.3.6",
-    "taffydb": "2.7.2"
+    "babel-generator": "~6.11.4",
+    "cheerio": "~0.22.0",
+    "escape-html": "~1.0.3",
+    "fs-extra": "~1.0.0",
+    "ice-cap": "~0.0.4",
+    "marked": "~0.3.9",
+    "taffydb": "~2.7.2"
   },
   "devDependencies": {
     "babel-cli": "6.11.4",
