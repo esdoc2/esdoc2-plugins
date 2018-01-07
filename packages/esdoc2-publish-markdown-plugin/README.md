@@ -4,7 +4,7 @@
 **We are waiting for your pull request!**
 
 ## Example
-[example](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-publish-markdown-plugin/misc/index.md)
+[example](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-publish-markdown-plugin/misc/index.md)
 
 <img src="https://raw.githubusercontent.com/esdoc2/esdoc2-plugins/master/esdoc2-publish-markdown-plugin/misc/ss.png" width="400px">
 
