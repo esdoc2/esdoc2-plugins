@@ -59,17 +59,17 @@ npm install esdoc2-standard-plugin
 ```
 
 The `esdoc2-standard-plugin` is a glue plugin. The following plugins are used by this.
-- [esdoc2-lint-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-lint-plugin)
-- [esdoc2-coverage-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-coverage-plugin)
-- [esdoc2-accessor-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-accessor-plugin)
-- [esdoc2-type-inference-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-type-inference-plugin)
-- [esdoc2-external-ecmascript-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-external-ecmascript-plugin)
-- [esdoc2-brand-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-brand-plugin)
-- [esdoc2-undocumented-identifier-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-undocumented-identifier-plugin)
-- [esdoc2-unexported-identifier-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-unexported-identifier-plugin)
-- [esdoc2-integrate-manual-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-integrate-manual-plugin)
-- [esdoc2-integrate-test-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-integrate-test-plugin)
-- [esdoc2-publish-html-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-publish-html-plugin)
+- [esdoc2-lint-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-lint-plugin)
+- [esdoc2-coverage-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-coverage-plugin)
+- [esdoc2-accessor-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-accessor-plugin)
+- [esdoc2-type-inference-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-type-inference-plugin)
+- [esdoc2-external-ecmascript-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-external-ecmascript-plugin)
+- [esdoc2-brand-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-brand-plugin)
+- [esdoc2-undocumented-identifier-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-undocumented-identifier-plugin)
+- [esdoc2-unexported-identifier-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-unexported-identifier-plugin)
+- [esdoc2-integrate-manual-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-integrate-manual-plugin)
+- [esdoc2-integrate-test-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-integrate-test-plugin)
+- [esdoc2-publish-html-plugin](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-publish-html-plugin)
 
 ## LICENSE
 MIT

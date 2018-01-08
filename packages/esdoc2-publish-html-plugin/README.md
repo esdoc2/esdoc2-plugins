@@ -21,7 +21,7 @@ To use a custom template (ex `my-template` placed in the working directory):
     {"name": "esdoc2-publish-html-plugin", "option": {"template": "my-template"}}
 ```
 
-We recommend that you base on [the original template](https://github.com/esdoc2/esdoc2-plugins/tree/master/esdoc2-publish-html-plugin/src/Builder/template).
+We recommend that you base on [the original template](https://github.com/esdoc2/esdoc2-plugins/tree/master/packages/esdoc2-publish-html-plugin/src/Builder/template).
 
 ## LICENSE
 MIT
