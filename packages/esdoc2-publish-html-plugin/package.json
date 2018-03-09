@@ -39,6 +39,7 @@
     "node": ">= 6.0.0"
   },
   "scripts": {
+    "prepublish": "npm run build",
     "build": "rm -rf ./out/src && babel --out-dir out/src --ignore 'Builder/template' src && cp -a src/Builder/template out/src/Builder/",
     "test": "rm -rf ./test/fixture/out && node ./test/init.js && mocha -t 10000 --require ./node_modules/babel-register --recursive ./test/src -R spec"
   },
