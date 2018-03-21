@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "esdoc2": "latest",
-    "lerna": "^2.5.1",    
+    "lerna": "^2.5.1",
     "esdoc2-accessor-plugin": "*",
     "esdoc2-brand-plugin": "*",
     "esdoc2-coverage-plugin": "*",
