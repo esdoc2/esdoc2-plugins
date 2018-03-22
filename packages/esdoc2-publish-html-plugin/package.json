@@ -19,9 +19,10 @@
     "taffydb": "~2.7.2"
   },
   "devDependencies": {
-    "babel-cli": "6.11.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.11.5",
-    "babel-register": "6.11.6",
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/register": "^7.0.0-beta.42",
     "esdoc2": "latest",
     "esdoc2-accessor-plugin": "latest",
     "esdoc2-brand-plugin": "latest",
