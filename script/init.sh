@@ -1,1 +1,0 @@
-lerna exec "cat ../../_template/test/init.js > test/init.js"
