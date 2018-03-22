@@ -50,7 +50,7 @@
     "plugin"
   ],
   "files": [
-    "out/src",
+    "out",
     "README.md"
   ],
   "main": "out/src/Plugin.js"

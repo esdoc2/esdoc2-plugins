@@ -1171,41 +1171,33 @@ escodegen@^1.6.1:
 
 esdoc2-accessor-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-accessor-plugin/-/esdoc2-accessor-plugin-2.0.0.tgz#87a25c12ce6e649de8a1411fc242a03188caa4cc"
 
 esdoc2-brand-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-brand-plugin/-/esdoc2-brand-plugin-2.0.0.tgz#7579a98f318a307f91395ba79c7758c4dbf4cc07"
   dependencies:
     cheerio "0.22.0"
 
 esdoc2-coverage-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-coverage-plugin/-/esdoc2-coverage-plugin-2.0.0.tgz#e0a3ca5078d15d691a02b58a67800a715dfcea67"
 
 esdoc2-ecmascript-proposal-plugin@latest:
   version "2.1.1"
-  resolved "https://registry.yarnpkg.com/esdoc2-ecmascript-proposal-plugin/-/esdoc2-ecmascript-proposal-plugin-2.1.1.tgz#e20f091c34a2057219abfd0f7bab0bcc10b24ce1"
 
 esdoc2-external-ecmascript-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-external-ecmascript-plugin/-/esdoc2-external-ecmascript-plugin-2.0.0.tgz#ef9e8f5f9a22925b7c64923da43662ec2595d3b9"
   dependencies:
     fs-extra "1.0.0"
 
 esdoc2-integrate-manual-plugin@latest:
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-integrate-manual-plugin/-/esdoc2-integrate-manual-plugin-2.1.0.tgz#5fc646de2a07852a3f734bd5927f1fb1e50d7bb8"
   dependencies:
     glob "^7.1.2"
 
 esdoc2-integrate-test-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-integrate-test-plugin/-/esdoc2-integrate-test-plugin-2.0.0.tgz#5f03eb73fbb78b8bbebc3702372aa942b8758cad"
 
 esdoc2-standard-plugin@latest:
   version "2.1.2"
-  resolved "https://registry.yarnpkg.com/esdoc2-standard-plugin/-/esdoc2-standard-plugin-2.1.2.tgz#9ea68202eda55a87ab54dd85dd73549b7d5a7894"
   dependencies:
     esdoc2-accessor-plugin "^2.0.0"
     esdoc2-brand-plugin "^2.0.0"
@@ -1221,17 +1213,14 @@ esdoc2-standard-plugin@latest:
 
 esdoc2-type-inference-plugin@latest:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/esdoc2-type-inference-plugin/-/esdoc2-type-inference-plugin-2.0.1.tgz#c3c5e9ded1d793ef8aa64e5bf472a71e0b23a6f9"
 
 esdoc2-undocumented-identifier-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-undocumented-identifier-plugin/-/esdoc2-undocumented-identifier-plugin-2.0.0.tgz#54c1c7e21076eac0b505e95eb0716d41cc966c6d"
 
 esdoc2-unexported-identifier-plugin@latest:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/esdoc2-unexported-identifier-plugin/-/esdoc2-unexported-identifier-plugin-2.0.0.tgz#7b861f13ebca657f40535b20a707721d3c586a3d"
 
-esdoc2@latest:
+esdoc2@*, esdoc2@latest:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/esdoc2/-/esdoc2-2.1.3.tgz#c616412576bd1c807cdf8070cb7ebc1d96f0c406"
   dependencies:
