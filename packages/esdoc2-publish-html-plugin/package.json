@@ -34,15 +34,20 @@
     "esdoc2-type-inference-plugin": "latest",
     "esdoc2-undocumented-identifier-plugin": "latest",
     "esdoc2-unexported-identifier-plugin": "latest",
-    "mocha": "2.5.3"
+    "mocha": "2.5.3",
+    "rimraf": "^2.6.2"
   },
   "engines": {
     "node": ">= 6.0.0"
   },
   "scripts": {
     "prepublish": "npm run build",
-    "build": "rm -rf ./out/src && babel --out-dir out/src --ignore 'Builder/template' src && cp -a src/Builder/template out/src/Builder/",
-    "test": "rm -rf ./test/fixture/out && node ./test/init.js && mocha -t 10000 --require ./node_modules/babel-register --recursive ./test/src -R spec"
+    "babel": "babel src --out-dir out/src --copy-files",
+    "clean:out": "rimraf ./out/src",
+    "clean:test": "rimraf ./test/fixture/out",
+    "build": "npm run clean:out && npm run babel",
+    "pretest": "npm run clean:test && node ./test/init.js",
+    "test": "mocha -t 10000 --require @babel/register --recursive ./test/src -R spec"
   },
   "keywords": [
     "esdoc2",
